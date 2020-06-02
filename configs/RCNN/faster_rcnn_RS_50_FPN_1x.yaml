@@ -1,0 +1,15 @@
+_BASE_: "Base-RCNN-FPN.yaml"
+MODEL:
+  #WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+  RESNEST: True
+  BACKBONE:
+    NAME: "build_resnest_fpn_backbone"
+  MASK_ON: False
+  RESNETS:
+    DEPTH: 50
+    STRIDE_IN_1X1: False
+    RADIX: 2
+    DEEP_STEM: True
+    AVD: True
+    AVG_DOWN: True
+    NORM: "GN"

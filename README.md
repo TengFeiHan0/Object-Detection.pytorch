@@ -10,6 +10,10 @@
 |  LibraRCNN| 1x      |   16   | 38.7 | 59.9 | 42.0 | 22.5 | 41.1 | 48.7|
 |  GA      | 1x       |   16   | 39.8 | 59.2 |43.5 | 21.8 | 42.6 |50.7|
 
+### GA:
+| IoU-balanced Sampling | Balanced Feature | Pyramid Balanced L1 Loss |  AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+| :------: |:------:|:------:                               |:------:|:------:|:------:|:------:|:------:|:------:|
+|   x  |  |  | 0.394 | 0.585 | 0.430 | 0.226 | 0.425 | 0.509|
 
 ### FCOS
 |  Name    | lr sched | batch size |  AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |

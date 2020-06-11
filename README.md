@@ -1,24 +1,20 @@
 # Object-Detection.pytorch
 
-## COCO Object Detection Baselines
+## bdd100k Object Detection Baselines
 
 ### Faster R-CNN:
 |  Name    | lr sched | batch size |  AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
 | :------: |:------:  |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-|  R50_FPN |1x        |   16   | 37.961 | 58.886 | 41.288 | 22.344 | 40.967 | 48.944 |
-|  PISA    | 1x       |   16   | 38.8 | 59.3 | 42.7 | 22.1 | 41.7 | 48.8| 
-|  LibraRCNN| 1x      |   16   | 38.7 | 59.9 | 42.0 | 22.5 | 41.1 | 48.7|
-|  GA      | 1x       |   16   | 39.8 | 59.2 |43.5 | 21.8 | 42.6 |50.7|
+|  R50_FPN |1x        |   16   | 
+|  PISA    | 1x       |   16   | 
+|  LibraRCNN| 1x      |   16   | 
+|  GA      | 1x       |   16   | 
 
-### GA:
-| IoU-balanced Sampling | Balanced Feature | Pyramid Balanced L1 Loss |  AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
-| :------: |:------:|:------:                               |:------:|:------:|:------:|:------:|:------:|:------:|
-|   x  |  |  | 0.394 | 0.585 | 0.430 | 0.226 | 0.425 | 0.509|
 
-### FCOS
+### Anchor-free
 |  Name    | lr sched | batch size |  AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
 | :------: |:------:  |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-| ATSS     | 1x       |   16   | 39.4   |  57.6  | 42.5   | 23.5   | 42.7   | 50.1   |  
-
-### RepPoints
-0.383 0.589 0.410 0.227 0.424 0.499
+| FCOS     |
+| ATSS     | 1x       |   16   |
+| CenterNet| 
+| RepPoints|

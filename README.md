@@ -1,6 +1,6 @@
 # Object-Detection.pytorch
 
-## bdd100k Object Detection Baselines
+## bdd100k Dataset Baseline
 
 ### Faster R-CNN:
 |  Name    | backbone | batch size |  AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |

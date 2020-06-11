@@ -1,6 +1,7 @@
 # Object-Detection.pytorch
 
 ## bdd100k Dataset Baseline
+- we use `mmdetection` to train all models.
 - All models were trained on `bdd100k_train`, and tested on the `bdd100k_val`.
 - We use distributed training across 8 Nvdia-1080Ti GPUs. 
 

@@ -2,10 +2,10 @@
 
 ## bdd100k Dataset Baseline
 
-### Faster R-CNN:
+### Anchor-based:
 |  Name    | backbone | batch size |  AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
 | :------: |:------:  |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-|  R50_FPN | R_50_FPN |   16   | 
+|  FasterRCNN | R_50_FPN |   16   | 
 |  PISA    | R_50_FPN |   16   | 
 |  LibraRCNN| R_50_FPN|   16   | 
 |  GA      | R_50_FPN |   16   | 

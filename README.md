@@ -3,18 +3,18 @@
 ## bdd100k Object Detection Baselines
 
 ### Faster R-CNN:
-|  Name    | lr sched | batch size |  AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+|  Name    | backbone | batch size |  AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
 | :------: |:------:  |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-|  R50_FPN |1x        |   16   | 
-|  PISA    | 1x       |   16   | 
-|  LibraRCNN| 1x      |   16   | 
-|  GA      | 1x       |   16   | 
+|  R50_FPN | R_50_FPN |   16   | 
+|  PISA    | R_50_FPN |   16   | 
+|  LibraRCNN| R_50_FPN|   16   | 
+|  GA      | R_50_FPN |   16   | 
 
 
 ### Anchor-free
-|  Name    | lr sched | batch size |  AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+|  Name    | backbone | batch size |  AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
 | :------: |:------:  |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-| FCOS     |
-| ATSS     | 1x       |   16   |
+| FCOS     | R_50_FPN |        |
+| ATSS     | R_50_FPN |   16   |
 | CenterNet| 
-| RepPoints|
+| RepPoints| R_50_FPN |   16   |

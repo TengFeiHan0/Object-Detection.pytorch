@@ -12,7 +12,7 @@
 ### Anchor-based:
 |  Name    | backbone | tricks |  AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
 | :------: |:------:  |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-|  FasterRCNN | R_50_FPN |   16   | 
+|  FasterRCNN | R_50_FPN |      | 
 |  PISA    | R_50_FPN |      | 
 |  LibraRCNN| R_50_FPN|      | 
 |  GA      | R_50_FPN |      | 

@@ -24,7 +24,7 @@
 | CenterNet| R_50_DCN|       
 | RepPoints| R_50_FPN |     | 0.312 | 0.555 | 0.297 | 0.129 | 0.348 | 0.505 |
 
-##CenterNet series
+## CenterNet series
 |  Name    | backbone | Iters  | AP   |  AP50  |  AP75  |  APs   |  APm     |  APl   |
 | :------: |:------:  |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | CenterNet| R_50_DCN |125997  | 27.5269|44.7613| 28.8301 |9.6805 | 31.4682 |43.1641 |
